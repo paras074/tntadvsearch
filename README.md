@@ -1,3 +1,4 @@
+![TNTSearch](https://pssoftgroup.com/demo/img/TntSearch.png)
 # TNTSearch Plugin
 A custom search plugin using TNTSearch library. It returns accurate results and performs well under various scenarios.TNT Advance Search functions as a post-plugin within a given context.
 Features include:
