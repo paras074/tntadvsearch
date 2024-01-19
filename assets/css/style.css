@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {font-family: 'Montserrat', sans-serif;}
+
+header .has-background {background: #ddd !important;}
+
+h1.wp-block-post-title {font-family: 'Montserrat', sans-serif; font-weight: 600;}
+
+
+footer {background: #ddd; margin: 50px 0 0;}
+
+footer .wp-block-group-is-layout-constrained {padding: 40px 20px !important;}
+
+.tnt-form {display: flex; flex-direction: column; gap: 10px;}
+
+.tnt-form label {font-weight: 500;}
+
+.tnt-form input[type="text"] {outline:0; border: 1px solid #999; padding: 12px; border-radius: 64px; font-family: 'Montserrat', sans-serif;}
+
+
+#tnt-search-results ul {margin: 40px 0 0 0; list-style: none; display: flex; flex-direction: column; width: 100%; gap: 20px; background: #fff; padding: 20px; border: 1px solid #f2f2f2; border-radius: 4px;}
+
+.post-data {align-items: center; overflow: hidden; background: #fff; display: flex; gap: 10px; border-radius: 4px; border: 1px solid #999;}
+
+.post-img-parent {width: 20%; background: #f2f2f2; padding: 20px; display: flex; align-items: center; border-right: 1px solid #999;}
+
+.post-grid {width: 80%; padding: 20px;}
+
+.post-grid .post-title {font-weight: 600; text-decoration: none; font-style: italic;}
+
+.post-grid .post-desc {font-size: 14px; margin: 0;}
+
+.post-img-parent .post-img {width: 100%; height: auto;}
+
+.post-grid .post-title .highlighted {color: rgba(255,105,0,1);}
+
+.no-post {text-align: center; font-weight: 500;}
+
+#tnt-search-results {max-width: 800px; margin: 0 auto; display: table;}
+
+
+@media screen and (max-width: 767px)
+{
+    .post-data {flex-direction: column;}
+
+    .post-img-parent {width: 100%}
+}
+
