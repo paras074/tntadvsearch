@@ -7,15 +7,6 @@ Features include:
 * Text classification
 * Highlight Search Text
 
-## Installation
-
-The easiest way to install TNTSearch is via [composer]
-
-You have to run following command inside the plugin directory:
-```
-composer require teamtnt/tntsearch
-```
-
 Utilize the [tnt_search_form] shortcode to access the form.
 ## Shortcode => [tnt_search_form]
 
